@@ -9,10 +9,10 @@ jobs:
         displayName: 'Download server artifact files'
         inputs:
           buildType: 'specific'
-          project: 'Pipelines'
+          project: 'test'
           pipeline: 'rusher.pipeline_DL'
           artifactName: 'test-pipe'
           #buildVersionToDownload: 'latest'
-          buildId: 5
+          buildId: 1
           buildVersionToDownload: 'specific'
           downloadPath: $(System.DefaultWorkingDirectory)
