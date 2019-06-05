@@ -1,7 +1,7 @@
 
 jobs:
   - job: testingDownloadPipelineArtifact
-    displayName: 'testing pipelines'
+    displayName: 'retrieving pipelines'
     pool:
       vmImage: 'ubuntu-16.04'
     steps:
@@ -9,10 +9,10 @@ jobs:
         displayName: 'Download server artifact files'
         inputs:
           buildType: 'specific'
-          project: 'test'
+          project: 'Pipelines'
           pipeline: 'rusher.pipeline_DL'
           artifactName: 'test-pipe'
-          buildVersionToDownload: 'latest'
-          #buildId: 5
-          #buildVersionToDownload: 'specific'
+          #buildVersionToDownload: 'latest'
+          buildId: 5
+          buildVersionToDownload: 'specific'
           downloadPath: $(System.DefaultWorkingDirectory)
