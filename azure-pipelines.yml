@@ -12,7 +12,7 @@ jobs:
           project: 'f36b9048-dabc-4752-8626-cc67cd5a2a4f'
           pipeline: 'rusher.pipeline_DL'
           artifactName: 'test-pipe'
-          buildVersionToDownload: 'latest'
-          #buildId: 1
-          #buildVersionToDownload: 'specific'
+          #buildVersionToDownload: 'latest'
+          buildId: 1
+          buildVersionToDownload: 'specific'
           downloadPath: $(System.DefaultWorkingDirectory)
