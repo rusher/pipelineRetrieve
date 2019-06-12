@@ -9,7 +9,7 @@ jobs:
         displayName: 'Download server artifact files'
         inputs:
           buildType: 'specific'
-          project: 'rusher.pipeline_DL'
+          project: 'f36b9048-dabc-4752-8626-cc67cd5a2a4f'
 #          pipeline: 'rusher.pipeline_DL'
           artifactName: 'test-pipe'
           buildVersionToDownload: 'latest'
