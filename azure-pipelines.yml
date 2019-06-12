@@ -1,7 +1,7 @@
 
 jobs:
   - job: testingDownloadPipelineArtifact
-    displayName: 'retrieving pipelines'
+    displayName: 'retrieving  pipelines'
     pool:
       vmImage: 'ubuntu-16.04'
     steps:
